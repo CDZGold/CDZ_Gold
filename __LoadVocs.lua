@@ -681,13 +681,3 @@ if player:getTitle() == ('Ikki [Fenix Divino]') then
 end
 
 end)
-
-
-
-
-
-onKeyDown(function(keys)
-if keys == '0' then
-  say(player:getTitle())
-end
-end)
